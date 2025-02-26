@@ -41,7 +41,12 @@ const SettingsModal = ({ visible, onClose }) => {
             >
               <Text style={styles.buttonText}>Amharic</Text>
             </TouchableOpacity>
-           
+            <TouchableOpacity
+              style={[styles.button, language === 'french' && styles.selectedButton]}
+              onPress={() => setLanguage('french')}
+            >
+              <Text style={styles.buttonText}>French</Text>
+            </TouchableOpacity>
           </View>
 
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>

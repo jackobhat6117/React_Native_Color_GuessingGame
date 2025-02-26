@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678709528650",
+    "project_id": "color-guessing-game-2bb27",
+    "storage_bucket": "color-guessing-game-2bb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678709528650:android:eccf350965980fb6a0feb3",
+        "android_client_info": {
+          "package_name": "come.native.colorgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-H8tr6PJ6rLgmf6Ntf7xW4QaeImZX0oA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

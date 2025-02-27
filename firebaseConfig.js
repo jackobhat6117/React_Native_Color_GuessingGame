@@ -1,15 +1,17 @@
+import { API_KEY, APP_ID } from '@env';
+
 // firebaseConfig.js
 import firebase from '@react-native-firebase/app';
 
 import firestore from '@react-native-firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB-H8tr6PJ6rLgmf6Ntf7xW4QaeImZX0oA",
+  apiKey:API_KEY,
   authDomain: "color-guessing-game-2bb27.firebaseapp.com",
   projectId: "color-guessing-game-2bb27",
   storageBucket: "color-guessing-game-2bb27.appspot.com",
   messagingSenderId: "678709528650",
-  appId: "1:678709528650:web:c2ba0d10d4beca15a0feb3",
+  appId: APP_ID,
   measurementId: "G-LFGVH97ZL2"
 };
 
